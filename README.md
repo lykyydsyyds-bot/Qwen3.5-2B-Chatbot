@@ -53,7 +53,7 @@ pip list | findstr llama
 Important: Download the quantised model file Qwen3.5-2B-Q4_K_M.gguf (approx. 1.2 GB) from Hugging Face and place it directly inside the Blog Generation folder before running the app.
 
 ```
-4. Running the Application
+## 4. Running the Application
 Launch the Streamlit web interface with:
 
 bash
@@ -64,7 +64,7 @@ text
 http://localhost:8501
 You will see a simple chat page. Type your question and click Send to receive a reply from the Qwen model.
 
-5. Testing
+## 5. Testing
 The project includes two test suites:
 
 5.1 Model Tests (Accuracy, Performance, Memory)
@@ -99,7 +99,8 @@ Three videos are provided to document the entire workflow. They are stored in th
 - [2 – Implementation](<videos/[p2303298,p2303422]_ [Qwen3.5-2B Local Chatbot]_2-implementation.mp4>)
 - [3 – Testing](<videos/[p2303298,p2303422]_ [Qwen3.5-2B Local Chatbot]_3-testing.mp4>)
 
-7. Project Structure
+## 7. Project Structure
+```bash
 text
 Blog Generation/
 ├── app.py                 # Main Streamlit application
@@ -115,7 +116,8 @@ Blog Generation/
 │   └── ...3-testing.mp4
 ├── README.md              # This file
 └── RESULTS.md             # Qualitative analysis and challenges encountered
-8. Key Technical Decisions
+```
+## 8. Key Technical Decisions
 Inference engine: llama-cpp-python used directly (instead of LangChain’s wrapper) to avoid asynchronous conflicts with Streamlit.
 
 Quantisation: Q4_K_M – a good balance between model quality and resource consumption.
@@ -124,12 +126,12 @@ Frontend: Streamlit – minimal code required, quick prototyping.
 
 Testing: Pytest with -s flag to reveal detailed print() outputs for clarity.
 
-9. Acknowledgements
+## 9. Acknowledgements
 Model: Qwen3.5-2B by Alibaba Cloud, quantised by Unsloth.
 
 Tools: llama-cpp-python, Streamlit, Pytest, psutil.
 
 The LangChain community for initial integration ideas.
 
-10. Contact
+## 10. Contact
 For any questions regarding this submission, please refer to the video demonstrations or the RESULTS.md file for troubleshooting notes.
