@@ -52,6 +52,7 @@ pip install pytest psutil
 pip list | findstr llama
 Important: Download the quantised model file Qwen3.5-2B-Q4_K_M.gguf (approx. 1.2 GB) from Hugging Face and place it directly inside the Blog Generation folder before running the app.
 
+```
 4. Running the Application
 Launch the Streamlit web interface with:
 
@@ -90,14 +91,13 @@ Truncation of over‑long user inputs (beyond 500 characters).
 
 All tests should pass with green PASSED results.
 
-6. Video Demonstrations
-Three videos are provided to document the entire workflow. They are stored in the videos/ folder.
+## 6. Video Demonstrations
 
-1 – Installation
+Three videos are provided to document the entire workflow. They are stored in the `videos/` folder.
 
-2 – Implementation
-
-3 – Testing
+- [1 – Installation](<videos/[p2303298,p2303422]_ [Qwen3.5-2B Local Chatbot]_1-installation.mp4>)
+- [2 – Implementation](<videos/[p2303298,p2303422]_ [Qwen3.5-2B Local Chatbot]_2-implementation.mp4>)
+- [3 – Testing](<videos/[p2303298,p2303422]_ [Qwen3.5-2B Local Chatbot]_3-testing.mp4>)
 
 7. Project Structure
 text
