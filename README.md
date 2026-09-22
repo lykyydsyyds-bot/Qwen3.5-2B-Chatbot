@@ -90,13 +90,14 @@ Truncation of over‑long user inputs (beyond 500 characters).
 
 All tests should pass with green PASSED results.
 
-## 6. Video Demonstrations
+6. Video Demonstrations
+Three videos are provided to document the entire workflow. They are stored in the videos/ folder.
 
-Three videos are provided to document the entire workflow. They are stored in the `videos/` folder.
+1 – Installation
 
-- [1 – Installation](<videos/[p2303298,p2303422]_ [Qwen3.5-2B Local Chatbot]_1-installation.mp4>)
-- [2 – Implementation](<videos/[p2303298,p2303422]_ [Qwen3.5-2B Local Chatbot]_2-implementation.mp4>)
-- [3 – Testing](<videos/[p2303298,p2303422]_ [Qwen3.5-2B Local Chatbot]_3-testing.mp4>)
+2 – Implementation
+
+3 – Testing
 
 7. Project Structure
 text
